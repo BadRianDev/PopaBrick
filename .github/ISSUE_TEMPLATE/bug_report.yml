@@ -1,0 +1,100 @@
+name: Bug report
+description: Something in the game is broken, looks wrong or behaves unexpectedly.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        **Please do not include personal information** such as your name, address,
+        payment details or LG account email — this issue is public and we do not need them.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+      placeholder: The ball passed straight through a steel brick instead of bouncing off it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we make it happen again?
+      placeholder: |
+        1. Start level 12
+        2. Collect the fireball capsule
+        3. Hit the steel brick on the top row
+    validations:
+      required: true
+
+  - type: input
+    id: level
+    attributes:
+      label: Which level?
+      placeholder: "12"
+    validations:
+      required: false
+
+  - type: input
+    id: tv-model
+    attributes:
+      label: TV model
+      description: "Settings \u2192 Support \u2192 TV Information"
+      placeholder: OLED55C34LA
+    validations:
+      required: true
+
+  - type: input
+    id: webos-version
+    attributes:
+      label: webOS version
+      description: Shown on the same TV Information screen.
+      placeholder: "webOS 23 / 03.30.70"
+    validations:
+      required: true
+
+  - type: input
+    id: game-version
+    attributes:
+      label: Game version
+      description: "Shown on the ABOUT & SUPPORT screen in the game."
+      placeholder: 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: control
+    attributes:
+      label: How were you controlling the paddle?
+      options:
+        - Magic Remote pointer
+        - RED / BLUE buttons
+        - D-pad arrows
+        - A mix
+    validations:
+      required: false
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Most of the time
+        - Occasionally
+        - It happened once
+    validations:
+      required: true
+
+  - type: textarea
+    id: media
+    attributes:
+      label: Photo or video
+      description: A photo or short phone video of the TV screen helps a lot. Drag files here to attach them.
+    validations:
+      required: false

@@ -1,0 +1,33 @@
+name: Feedback or idea
+description: Suggest an improvement, a new power-up, or anything else.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. We cannot promise anything will be built, but we read everything.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What is your idea?
+      placeholder: A capsule that briefly turns the paddle into a curved surface for sharper angles.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it make the game better?
+    validations:
+      required: false
+
+  - type: input
+    id: tv-model
+    attributes:
+      label: TV model
+      description: Optional, but useful if your idea relates to a specific TV or remote.
+      placeholder: OLED55C34LA
+    validations:
+      required: false

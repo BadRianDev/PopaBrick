@@ -1,0 +1,74 @@
+name: Purchase or unlock problem
+description: You bought the full game but the levels are still locked.
+title: "[Purchase] "
+labels: ["purchase"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The unlock is sold and billed by the **LG Content Store**, so we never see your
+        payment details and we cannot issue refunds — those go through LG Customer Support
+        for your country. We can help with the game not recognising a purchase you have made.
+
+  - type: markdown
+    attributes:
+      value: |
+        > **This issue is public.** Do not post your name, address, payment details,
+        > LG account email or any order number here.
+
+  - type: checkboxes
+    id: tried
+    attributes:
+      label: Please confirm you have tried these first
+      options:
+        - label: The TV is connected to the internet.
+          required: true
+        - label: The TV is signed in to the same LG account I used to buy the game.
+          required: true
+        - label: I opened the store screen in the game and selected the unlock again, which restores an existing purchase free of charge.
+          required: true
+
+  - type: textarea
+    id: what-happens
+    attributes:
+      label: What happens when you try to restore?
+      description: Tell us what the game shows on screen.
+      placeholder: The store screen says "Purchase did not complete. Please try again."
+    validations:
+      required: true
+
+  - type: input
+    id: tv-model
+    attributes:
+      label: TV model
+      description: "Settings \u2192 Support \u2192 TV Information"
+      placeholder: OLED55C34LA
+    validations:
+      required: true
+
+  - type: input
+    id: game-version
+    attributes:
+      label: Game version
+      description: "Shown on the ABOUT & SUPPORT screen in the game."
+      placeholder: 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: country
+    attributes:
+      label: Country of purchase
+      description: Which LG Content Store region did you buy from?
+      placeholder: Germany
+    validations:
+      required: false
+
+  - type: input
+    id: when
+    attributes:
+      label: Roughly when did you buy it?
+      description: A month is enough. Please do not post an order number.
+      placeholder: October 2026
+    validations:
+      required: false
