@@ -25,9 +25,9 @@ question may already be answered.
 
 ## Pages
 
-- **[Support and FAQ](https://badriandev.github.io/popabrick/)**
-- **[Privacy policy](https://badriandev.github.io/popabrick/privacy.html)**
-- **[Terms of use and disclaimer](https://badriandev.github.io/popabrick/terms.html)**
+- **[Support and FAQ](https://badriandev.github.io/PopaBrick/)**
+- **[Privacy policy](https://badriandev.github.io/PopaBrick/privacy.html)**
+- **[Terms of use and disclaimer](https://badriandev.github.io/PopaBrick/terms.html)**
 
 ## About the game
 
@@ -61,7 +61,7 @@ For private support or privacy questions, email
 Pop a Brick is provided *as is*. To the extent permitted by applicable law we give no further
 warranty and are not liable for indirect loss. **If you are a consumer in the EU, EEA or UK,
 your mandatory statutory rights are not affected.** Full wording in the
-[terms of use](https://badriandev.github.io/popabrick/terms.html).
+[terms of use](https://badriandev.github.io/PopaBrick/terms.html).
 
 ## Legal
 

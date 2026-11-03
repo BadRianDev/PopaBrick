@@ -13,7 +13,7 @@ Choose the form that fits:
 
 Please [search existing issues](https://github.com/BadRianDev/popabrick/issues) first.
 
-The [support pages](https://badriandev.github.io/popabrick/) answer the most common questions
+The [support pages](https://badriandev.github.io/PopaBrick/) answer the most common questions
 about controls, purchases and privacy.
 
 ## Before you report a bug
@@ -31,7 +31,7 @@ A photo or short phone video of the TV screen helps a lot.
 
 Issues in this repository are **public**. Do not post your name, address, payment details,
 LG account email or order numbers — we do not need them, and we will ask you to remove them
-if you do. See the [privacy policy](https://badriandev.github.io/popabrick/privacy.html).
+if you do. See the [privacy policy](https://badriandev.github.io/PopaBrick/privacy.html).
 
 Email is not a public issue, but we receive your address, message and attachments to handle
 your request. Please send only what is needed and check attachments for personal information.
