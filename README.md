@@ -14,7 +14,7 @@ Open a support request using one of our issue forms:
 | Form | Use it for |
 | --- | --- |
 | Bug report | Something in the game is broken or behaves unexpectedly |
-| Purchase or unlock problem | You bought the full game but levels are still locked |
+| Purchase or download problem | You bought the game but it will not download, install or start |
 | Feedback or idea | Suggestions and improvements |
 
 Please [search existing issues](https://github.com/BadRianDev/popabrick/issues) first — your
@@ -26,7 +26,7 @@ question may already be answered.
 ## Pages
 
 - **[Support and FAQ](https://badriandev.github.io/popabrick/)**
-- **[Privacy notice](https://badriandev.github.io/popabrick/privacy.html)**
+- **[Privacy policy](https://badriandev.github.io/popabrick/privacy.html)**
 - **[Terms of use and disclaimer](https://badriandev.github.io/popabrick/terms.html)**
 
 ## About the game
@@ -37,8 +37,9 @@ question may already be answered.
 - Fifteen power-up capsules, including guns, multi-ball, magnet, fireball and a safety net —
   plus red traps that work against you
 - Magic Remote pointer control, with RED/BLUE buttons and the D-pad as alternatives
-- Levels 1 and 2 are free; a single one-off purchase unlocks all 50. No subscription, no ads,
-  no tracking, no data leaves your TV
+- Paid up front through the LG Content Store, with all 50 levels included. Later levels are
+  reached through gameplay progress. No subscriptions, in-app purchases, ads or analytics.
+  The game keeps progress and preferences locally on your TV.
 
 ## Reporting a bug — what we need
 
@@ -50,6 +51,10 @@ question may already be answered.
 | Level and actions | What you were doing when it happened |
 
 A photo or short phone video of the TV screen helps a great deal.
+Check attachments for personal information before sharing them.
+
+For private support or privacy questions, email
+**[badriandev@gmail.com](mailto:badriandev@gmail.com)**.
 
 ## Disclaimer
 

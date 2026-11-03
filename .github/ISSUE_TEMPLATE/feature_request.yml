@@ -7,6 +7,8 @@ body:
     attributes:
       value: |
         Ideas are welcome. We cannot promise anything will be built, but we read everything.
+        This issue and any attachments are public. Do not include personal information.
+        For private support or privacy questions, email badriandev@gmail.com.
 
   - type: textarea
     id: idea

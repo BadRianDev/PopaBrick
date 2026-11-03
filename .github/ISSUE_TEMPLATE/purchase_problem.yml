@@ -1,20 +1,23 @@
-name: Purchase or unlock problem
-description: You bought the full game but the levels are still locked.
+name: Purchase or download problem
+description: You bought the game but it will not download, install or start.
 title: "[Purchase] "
 labels: ["purchase"]
 body:
   - type: markdown
     attributes:
       value: |
-        The unlock is sold and billed by the **LG Content Store**, so we never see your
-        payment details and we cannot issue refunds — those go through LG Customer Support
-        for your country. We can help with the game not recognising a purchase you have made.
+        The game is paid for up front through the **LG Content Store**, which handles billing
+        and refunds under its own process. All 50 levels are included, with no in-app purchases
+        or unlock transactions; later levels are reached through gameplay progress. Contact
+        LG Customer Support for store downloads, account or billing problems. We can help
+        if the installed game itself will not start.
 
   - type: markdown
     attributes:
       value: |
         > **This issue is public.** Do not post your name, address, payment details,
         > LG account email or any order number here.
+        > For private support, email badriandev@gmail.com. Check attachments for personal information.
 
   - type: checkboxes
     id: tried
@@ -25,15 +28,15 @@ body:
           required: true
         - label: The TV is signed in to the same LG account I used to buy the game.
           required: true
-        - label: I opened the store screen in the game and selected the unlock again, which restores an existing purchase free of charge.
+        - label: I checked the download or installation status in the LG Content Store.
           required: true
 
   - type: textarea
     id: what-happens
     attributes:
-      label: What happens when you try to restore?
+      label: What happens when you try to install or start it?
       description: Tell us what the game shows on screen.
-      placeholder: The store screen says "Purchase did not complete. Please try again."
+      placeholder: The Content Store shows an error and the download never finishes.
     validations:
       required: true
 
@@ -50,10 +53,10 @@ body:
     id: game-version
     attributes:
       label: Game version
-      description: "Shown on the ABOUT & SUPPORT screen in the game."
+      description: "Shown on ABOUT & SUPPORT if the game starts; leave blank if unavailable."
       placeholder: 1.0.0
     validations:
-      required: true
+      required: false
 
   - type: input
     id: country
